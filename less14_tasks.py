@@ -1,4 +1,3 @@
-
 class Tree:
 
     def __init__(self, id_node):
@@ -101,12 +100,12 @@ class Tree:
 
         return self
 
-root = Tree(100)
-nodes = [3, 7, [2, 4], 6, 8, 'bb',202.05, 44, 1]
+root = Tree(9)
+nodes = [3, 7, [2, 4], 6, 8, 'bb',202.05, 14, 1]
 root.insert_list(nodes)
 
 
 print('Max value: ', Tree.find_max(root))
 print('Min value: ', Tree.find_min(root))
-root.delete(44)
+root.delete(14)
 root.print_tree()
