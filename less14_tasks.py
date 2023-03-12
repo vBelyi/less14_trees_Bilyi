@@ -54,7 +54,7 @@ class Tree:
             elif isinstance(node, list):
                 self.insert_list(node)
             else:
-                print(f"Node {node} не може бути додано до дерева")
+                print(f"Node {node} не може бути додано до цього бінарного дерева пошуку")
 
 #Пошук мінімального і максимального значення елементів
     def find_min(tree):
